@@ -1,3 +1,5 @@
+import sys
+
 gcode = ''
 output = []
 with open(sys.argv[1], 'r') as gcode:
